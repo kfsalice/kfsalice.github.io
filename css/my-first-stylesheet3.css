@@ -1,5 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css?family=Dekko');
 body{
+	font-family: 'Dekko', cursive;
 background-color: Aliceblue;
 ;
 border: 2px solid Gray;

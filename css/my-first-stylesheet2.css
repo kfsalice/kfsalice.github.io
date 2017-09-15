@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
-
+@import url('https://fonts.googleapis.com/css?family=Dekko');
 body{
+	font-family: 'Dekko', cursive;
+background-color: Aliceblue;
+
 font-family:sans-serif;
 color: white;
 background: black;
