@@ -46,4 +46,17 @@ p{
 }
 
 
+.padding{
+padding: 16px; 
+
+}
+.header{
+	background-color: lightblue;
+	height: 200px
+	font-size:28 pt;
+	text-align: center;
+
+}
+
+
 

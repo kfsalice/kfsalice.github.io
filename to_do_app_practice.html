@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice To Do App</title>
+</head>
+<script type="text/javascript">
+function save(){
+	var newItem = document.getElementById('box').value;
+	localStorage.box = newItem;
+}
+function load(){
+	var savedDiv = document.getElementById("savedList");
+	savedDiv.innerHTML = localStorage.box;
+}
+</script>
+</body>
+<input type="text" id="box" value="Type here"><br/>
+<input type="button" id="save" value="Save"onclick="save();"><br/>
+<input type="button" id="load" value="load"onclick="load();"><br/>
+Saved item: <div id="savedList"></div>
+</html>

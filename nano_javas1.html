@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>In HTML Javascript</title>
+</head>
+<body>
+<script>
+	
+	//alert("Codin is fun");
+	//for (var i=0;i<10;i++) {
+		//document.write ("Coding is Fun");}
+		var password = "1234";  
+
+		alert ("We need a password urgently");
+		alert ("Use the password 1234");
+
+		checkPassword();
+
+		
+
+		//document.write (userPassword)
+
+		function checkPassword(){
+        var userPassword = prompt ("What is the password?");
+		if (userPassword === "1234"){
+			document.write ("You are intelligent.");
+		}else{
+			document.write ("Hey Dumbo");
+			checkPassword();
+		}
+}
+</script>
+</body>
+</html>
